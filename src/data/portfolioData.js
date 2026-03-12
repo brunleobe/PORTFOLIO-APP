@@ -2,11 +2,12 @@ export const portfolioData = {
   personalInfo: {
     name: "Bright Obende",
     title: "Frontend Developer",
-    email: "[EMAIL_ADDRESS]",
+    email: "brightobende11@gmail.com",
     github: "https://github.com/brunleobe",
     linkedin: "https://www.linkedin.com/in/bright-obende-420394302/",
     x: "https://x.com/brunleobe",
     instagram: "https://instagram.com/brunle.obe",
+    whatsapp: "https://wa.me/+2349034290158",
   },
   about: "I am a passionate Frontend Developer and dedicated student with a strong foundation in building responsive, user-centric web applications. Proficient in HTML5, CSS3, JavaScript, and React, with a solid understanding of Version Control (Git/GitHub) and RESTful APIs. Proven ability to collaborate effectively through volunteer experience in fast-paced environments. Passionate about writing clean, maintainable code and solving complex UI challenges",
   skills: ["HTML5", "CSS3", "Javascript", "React JS", "Git", "Github", "Netlify", "REST APIs", "UI Design", "Tailwind CSS"],
@@ -36,15 +37,6 @@ export const portfolioData = {
       image: "src/assets/images/watchlist-app.png",
       demoUrl: "https://gleaming-licorice-6634a7.netlify.app/",
       githubUrl: "https://github.com/brunleobe/movie-watchlist-app",
-    },
-
-    {
-      id: 3,
-      title: "E-Commerce App",
-      description: "A full-stack e-commerce application built with React and Node.js.",
-      image: "src/assets/images/project1.png",
-      demoUrl: "#",
-      githubUrl: "#",
     }
 
   ]

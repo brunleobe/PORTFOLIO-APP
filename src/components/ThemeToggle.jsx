@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 
 const ThemeToggle = () => {
-  const [isDark, setIsDark] = useState(false);
+  // Initialize state based on the current class of the element
+  const [isDark, setIsDark] = useState(
+    () => window.document.documentElement.classList.contains('dark')
+  );
 
   useEffect(() => {
-    // Check initial theme on mount
+    // Optionally listen to changes or keep in sync if needed.
+    // The inline script in index.html sets it up initially before hydration.
     const root = window.document.documentElement;
-    if (root.classList.contains('dark')) {
-      setIsDark(true);
-    } else {
-      setIsDark(false);
-    }
+    setIsDark(root.classList.contains('dark'));
   }, []);
 
   const toggleTheme = () => {
