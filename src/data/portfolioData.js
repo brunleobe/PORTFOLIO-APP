@@ -22,20 +22,20 @@ export const portfolioData = {
   projects: [
     {
       id: 1,
-      title: "E-Commerce App",
-      description: "A full-stack e-commerce application built with React and Node.js.",
-      image: "src/assets/images/project1.png",
-      demoUrl: "#",
-      githubUrl: "#",
+      title: "Sports Quiz App",
+      description: "A Sports quiz application built with HTML,CSS and React.",
+      image: "src/assets/images/quiz-app.png",
+      demoUrl: "https://sportify-quiz-apps.netlify.app/",
+      githubUrl: "https://github.com/brunleobe/sportify-quiz-app",
     },
 
     {
       id: 2,
-      title: "E-Commerce App",
-      description: "A full-stack e-commerce application built with React and Node.js.",
-      image: "src/assets/images/project1.png",
-      demoUrl: "#",
-      githubUrl: "#",
+      title: "Movie Watchlist App",
+      description: "A Movie watchlist application built with HTML,CSS and Javascript.",
+      image: "src/assets/images/watchlist-app.png",
+      demoUrl: "https://gleaming-licorice-6634a7.netlify.app/",
+      githubUrl: "https://github.com/brunleobe/movie-watchlist-app",
     },
 
     {
