@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-color: 248 250 252; /* slate-50: #f8fafc */
+    --surface-color: 255 255 255; /* white: #ffffff */
+    --accent-color: 14 165 233; /* sky-500: #0ea5e9 */
+    --text-main: 15 23 42; /* slate-900: #0f172a */
+    --text-muted: 100 116 139; /* slate-500: #64748b */
+  }
+
+  .dark {
+    --bg-color: 15 23 42; /* slate-900: #0f172a */
+    --surface-color: 30 41 59; /* slate-800: #1e293b */
+    --accent-color: 56 189 248; /* sky-400: #38bdf8 */
+    --text-main: 248 250 252; /* slate-50: #f8fafc */
+    --text-muted: 148 163 184; /* slate-400: #94a3b8 */
+  }
+
+  body {
+    @apply bg-background text-textMain antialiased font-sans selection:bg-accent selection:text-white transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/60 dark:bg-slate-900/30 backdrop-blur-lg border border-slate-900/10 dark:border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.1)];
+  }
+
+  .glass-card {
+    @apply glass rounded-2xl p-6 transition-all duration-300 hover:bg-white/70 dark:hover:bg-slate-900/40 hover:-translate-y-1;
+  }
+
+  .text-gradient {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    @apply from-primary-400 via-accent to-purple-500;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}

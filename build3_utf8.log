@@ -1,0 +1,99 @@
+﻿
+> portfolio-app@0.0.0 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 4 modules transformed.
+node.exe : [31mx[39m 
+Build failed in 1.25s
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" "
+C:\Users\HomePC\AppData\
+Roaming ...
++ ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo      
+        : NotSpecifi    
+ed: ([31mx[39m B    
+uild failed in 1.2    
+5s:String) [], Rem    
+oteException
+    + FullyQualifiedEr  
+  rorId : NativeComm    
+andError
+ 
+[31merror during build:
+[31m[vite:css] 
+[postcss] C:/Users/HomeP
+C/Documents/DEV/PORTFOLI
+O-APP/src/styles/global.
+css:31:5: The 
+`bg-surface/80` class 
+does not exist. If 
+`bg-surface/80` is a 
+custom class, make sure 
+it is defined within a 
+`@layer` directive.[31m
+file: [36mC:/Users/Home
+PC/Documents/DEV/PORTFOL
+IO-APP/src/styles/global
+.css:31:4[31m
+    at Input.error (C:\U
+sers\HomePC\Documents\DE
+V\PORTFOLIO-APP\node_mod
+ules\postcss\lib\input.j
+s:135:16)
+    at AtRule.error (C:\
+Users\HomePC\Documents\D
+EV\PORTFOLIO-APP\node_mo
+dules\postcss\lib\node.j
+s:146:32)
+    at processApply (C:\
+Users\HomePC\Documents\D
+EV\PORTFOLIO-APP\node_mo
+dules\tailwindcss\lib\li
+b\expandApplyAtRules.js:
+380:29)
+    at C:\Users\HomePC\D
+ocuments\DEV\PORTFOLIO-A
+PP\node_modules\tailwind
+css\lib\lib\expandApplyA
+tRules.js:551:9
+    at C:\Users\HomePC\D
+ocuments\DEV\PORTFOLIO-A
+PP\node_modules\tailwind
+css\lib\processTailwindF
+eatures.js:55:50
+    at async plugins (C:
+\Users\HomePC\Documents\
+DEV\PORTFOLIO-APP\node_m
+odules\tailwindcss\lib\p
+lugin.js:38:17)
+    at async 
+LazyResult.runAsync (C:\
+Users\HomePC\Documents\D
+EV\PORTFOLIO-APP\node_mo
+dules\postcss\lib\lazy-r
+esult.js:293:11)
+    at async compileCSS 
+(file:///C:/Users/HomePC
+/Documents/DEV/PORTFOLIO
+-APP/node_modules/vite/d
+ist/node/chunks/dep-BK3b
+2jBa.js:36898:21)
+    at async 
+Object.transform (file:/
+//C:/Users/HomePC/Docume
+nts/DEV/PORTFOLIO-APP/no
+de_modules/vite/dist/nod
+e/chunks/dep-BK3b2jBa.js
+:36171:11)
+    at async transform (
+file:///C:/Users/HomePC/
+Documents/DEV/PORTFOLIO-
+APP/node_modules/rollup/
+dist/es/shared/node-entr
+y.js:21269:16)[39m
