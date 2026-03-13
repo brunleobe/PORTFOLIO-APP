@@ -1,5 +1,6 @@
 import React from 'react';
 import { portfolioData } from '../data/portfolioData';
+import profileImage from '../assets/images/bright.jpg';
 
 const Hero = () => {
   return (
@@ -33,7 +34,7 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-tr from-primary-500 to-accent rounded-full blur-2xl opacity-40 animate-pulse-slow"></div>
             <img
-              src="src/assets/images/bright.jpg"
+              src={profileImage}
               alt="Profile"
               className="relative w-72 h-72 sm:w-96 sm:h-96 rounded-full object-cover border-4 border-slate-900/10 dark:border-white/10 shadow-2xl z-10"
             />

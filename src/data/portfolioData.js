@@ -1,3 +1,6 @@
+import quizAppImage from '../assets/images/quiz-app.png';
+import watchlistAppImage from '../assets/images/watchlist-app.png';
+
 export const portfolioData = {
   personalInfo: {
     name: "Bright Obende",
@@ -25,7 +28,7 @@ export const portfolioData = {
       id: 1,
       title: "Sports Quiz App",
       description: "A Sports quiz application built with HTML,CSS and React.",
-      image: "src/assets/images/quiz-app.png",
+      image: quizAppImage,
       demoUrl: "https://sportify-quiz-apps.netlify.app/",
       githubUrl: "https://github.com/brunleobe/sportify-quiz-app",
     },
@@ -34,7 +37,7 @@ export const portfolioData = {
       id: 2,
       title: "Movie Watchlist App",
       description: "A Movie watchlist application built with HTML,CSS and Javascript.",
-      image: "src/assets/images/watchlist-app.png",
+      image: watchlistAppImage,
       demoUrl: "https://gleaming-licorice-6634a7.netlify.app/",
       githubUrl: "https://github.com/brunleobe/movie-watchlist-app",
     }
