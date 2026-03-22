@@ -12,8 +12,8 @@ export const portfolioData = {
     instagram: "https://instagram.com/brunle.obe",
     whatsapp: "https://wa.me/+2349034290158",
   },
-  about: "I am a passionate Frontend Developer and dedicated student with a strong foundation in building responsive, user-centric web applications. Proficient in HTML5, CSS3, JavaScript, and React, with a solid understanding of Version Control (Git/GitHub) and RESTful APIs. Proven ability to collaborate effectively through volunteer experience in fast-paced environments. Passionate about writing clean, maintainable code and solving complex UI challenges",
-  skills: ["HTML5", "CSS3", "Javascript", "React JS", "Git", "Github", "Netlify", "REST APIs", "UI Design", "Tailwind CSS"],
+  about: "I am a passionate Frontend Developer and dedicated student with a strong foundation in building responsive, user-centric web applications. Proficient in HTML5, CSS3, JavaScript, TypeScript and React, with a solid understanding of Version Control (Git/GitHub) and RESTful APIs. Proven ability to collaborate effectively through volunteer experience in fast-paced environments. Passionate about writing clean, maintainable code and solving complex UI challenges",
+  skills: ["HTML5", "CSS3", "Javascript", "React JS", "Git", "Github", "Netlify", "REST APIs","TypeScript", "UI Design", "Tailwind CSS"],
   experience: [
     {
       id: 1,
